@@ -863,6 +863,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
   }
 
   .col-md-6 {
