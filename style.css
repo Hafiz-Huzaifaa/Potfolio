@@ -7,10 +7,9 @@
 
 body {
   background-color: #fff;
-  }
+}
 
-.header{
-  
+.header {
   overflow: visible;
 }
 
@@ -25,13 +24,9 @@ header nav.navbar {
   z-index: 1;
 }
 
-
-
 .navbar-brand {
   color: #6c5ce7;
 }
-
-
 
 .navbar-brand:hover {
   color: #34b7a7;
@@ -407,7 +402,7 @@ div .skills {
 }
 
 .skills .container .row .col-md-6 {
-width: 50%
+  width: 50%;
 }
 
 div .skills h3 {
@@ -446,21 +441,6 @@ div .skills h3 {
 .progress {
   height: 12px;
   /* Decrease the height of the progress bar */
-}
-
-.about .container .row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: unset !important;
-  margin-top: calc(-1 * var(--bs-gutter-y));
-  /* margin-right: calc(-.5 * var(--bs-gutter-x)); */
-  /* margin-left: calc(-.5 * var(--bs-gutter-x)); */
-  justify-content: center;
-  padding: 0 91px;
-  flex-direction: row;
-  align-items: center;
-  gap: 86px;
 }
 
 div.row strong {
@@ -572,8 +552,8 @@ div.title h1 {
 .service-container {
   display: flex;
   flex-wrap: wrap;
-      gap: 6.5rem;
-    
+  gap: 6.5rem;
+
   justify-content: center;
   margin: 4rem auto;
   max-width: 1200px;
@@ -661,21 +641,21 @@ div.title h1 {
 }
 
 .contact-section h2 {
-    color: #222222;
-    text-decoration: underline;
-    text-decoration-color: #34b7a7;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 3px;
-    font-size: 32px;
-    font-weight: 500;
-    padding-bottom: 20px;
-    margin-top: 5rem;
-    text-align: center;
-    margin-bottom: 5rem;
+  color: #222222;
+  text-decoration: underline;
+  text-decoration-color: #34b7a7;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 5rem;
 }
 
-form{
-   border: 2px solid #34b7a7;
+form {
+  border: 2px solid #34b7a7;
 }
 .contact-form {
   background-color: #f8f9fa;
@@ -686,8 +666,6 @@ form{
   width: 100%; /* ✅ Full width in column */
   /* border: 2px solid #34b7a7; */
 }
-
-
 
 .contact-form label {
   font-size: 1rem;
@@ -731,16 +709,16 @@ form{
   background-color: #101010;
 }
 
-.contact-section .container .row{
- justify-content: center;
- flex-direction: row !important;
-flex-wrap: nowrap !important;
-align-items: center !important;
-padding-bottom: 50px;
+.contact-section .container .row {
+  justify-content: center;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  padding-bottom: 50px;
 }
 
-.contact-section  {
- border: 1px;
+.contact-section {
+  border: 1px;
 }
 
 .contact-info {
@@ -778,6 +756,47 @@ padding-bottom: 50px;
 
   .zeroSection .leftSection {
     padding: unset;
+  }
+
+  .container .row .col-lg-7 {
+    padding: 0 30px;
+    margin-top: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .g-4 {
+    flex-direction: column;
+    background-color: unset !important;
+  }
+
+  .light {
+    background-color: white !important;
+  }
+
+  .skills .container .row .col-md-6 {
+    width: 100%;
+    gap: 22px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .row .tagline {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .skills .container .section-title {
+    margin-top: unset !important;
   }
 
   .profile .profile-items {
@@ -822,20 +841,34 @@ padding-bottom: 50px;
   }
 
   .service-container {
-    gap: unset;
+    /* gap: unset; */
   }
 
   .contact-section h2 {
     margin-bottom: 2rem;
     margin-bottom: 6rem;
   }
+  .contact-section .container {
+    padding-left: unset !important;
+    padding-right: unset !important;
+  }
+
+  .contact-section .container .row {
+    flex-direction: column !important;
+  }
 
   .contact-form {
     margin-bottom: 2rem;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .col-md-6 {
     width: 100%;
+    padding: unset;
+            padding: 0 13px;
   }
 }
 
